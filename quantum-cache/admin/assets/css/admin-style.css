@@ -1,0 +1,18 @@
+.quantum-cache-wrap h1 { font-size: 28px; font-weight: 600; margin-bottom: 0; display: flex; align-items: center; }
+.quantum-cache-wrap h1::before { content: "\f523"; font-family: dashicons; font-size: 32px; margin-right: 10px; color: #007cba; }
+.nav-tab-wrapper { margin-bottom: 20px; }
+.quantum-cache-wrap .form-table { background: #fff; padding: 20px; border-radius: 4px; box-shadow: 0 1px 1px rgba(0,0,0,.04); max-width: 800px; }
+.quantum-cache-wrap .form-table th { padding-left: 0; width: 200px; }
+.quantum-cache-dashboard .quantum-cache-box { background: #fff; padding: 20px; border-radius: 4px; box-shadow: 0 1px 1px rgba(0,0,0,.04); max-width: 500px; margin-top: 15px; }
+.quantum-cache-dashboard .button-hero { font-size: 18px !important; height: 50px !important; padding: 0 25px !important; }
+.quantum-cache-database-optimization { background: #fff; padding: 20px; border-radius: 4px; box-shadow: 0 1px 1px rgba(0,0,0,.04); max-width: 800px; }
+.quantum-cache-database-optimization h3 { margin-top: 0; font-size: 20px; }
+.db-cleanup-list { list-style: none; margin: 20px 0 0; padding: 0; }
+.db-cleanup-list li { display: flex; justify-content: space-between; align-items: center; padding: 15px; border-bottom: 1px solid #eee; }
+.db-cleanup-list li:first-child { border-top: 1px solid #eee; }
+.db-cleanup-list .label { font-size: 16px; font-weight: 500; }
+.db-cleanup-list .action .spinner { vertical-align: middle; margin-left: 5px; display: none; }
+.db-cleanup-list .cleanup-all { background-color: #f9f9f9; padding: 20px; margin-top: 20px; }
+.status-message { margin-top: 10px; font-weight: bold; display: block; }
+.status-message.success { color: green; }
+.status-message.error { color: red; }
